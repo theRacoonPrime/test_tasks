@@ -1,5 +1,5 @@
 import pytest
-import sms
+from sms import sms
 
 
 def test_send_sms_valid():

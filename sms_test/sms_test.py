@@ -1,5 +1,5 @@
 import unittest
-import sms
+from sms import sms
 
 
 class SMSTestCase(unittest.TestCase):

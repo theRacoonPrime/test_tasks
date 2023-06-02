@@ -27,12 +27,4 @@ class Gepard:
             self.snez("ryba")
 
 
-# anebo tak
-# class SpecialGepard(Gepard):
-#     def napapej_se(self):
-#         while self.pocet_zivotu < 9:
-#             self.snez("ryba")
-#
-#
-# special_gepard = SpecialGepard()
-# special_gepard.napapej_se()
+
