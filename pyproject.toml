@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test-tasks"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Stoletov <stoletov314@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_tasks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.9.1"
+pytest = "^7.3.1"
+django = "^4.2.1"
+chromedriver-autoinstaller = "^0.4.0"
+chromedriver = "^2.24.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
