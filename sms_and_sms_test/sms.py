@@ -52,7 +52,7 @@ def send_sms_from_csv(csv_file_path: str) -> None:
 
 # Jak by vypadal skript
 
-csv_file_path = input("Zadejte cestu k CSV souboru: ")
+csv_file_path = input("/Users/andrey/Library/CloudStorage/OneDrive-Personal/Book2.csv")
 send_sms_from_csv(csv_file_path)
 
 
