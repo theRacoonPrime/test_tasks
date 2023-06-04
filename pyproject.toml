@@ -13,6 +13,7 @@ pytest = "^7.3.1"
 django = "^4.2.1"
 chromedriver-autoinstaller = "^0.4.0"
 chromedriver = "^2.24.1"
+sqlalchemy = "^2.0.15"
 
 
 
