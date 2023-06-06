@@ -1,11 +1,14 @@
 import pytest
-from sms_and_sms_test.sms import (INVALID_PHONE_NUMBER,
-                                  send_sms,
-                                  INVALID_MESSAGE,
-                                  send_sms_from_csv,
-                                  validate_message,
-                                  validate_number)
+from sms_and_sms_test.sms import (
+    INVALID_PHONE_NUMBER,
+    send_sms,
+    INVALID_MESSAGE,
+    send_sms_from_csv,
+    validate_message,
+    validate_number
+)
 from unittest.mock import patch
+
 
 
 def test_send_sms_from_csv(tmpdir):
